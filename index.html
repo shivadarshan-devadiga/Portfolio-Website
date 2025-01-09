@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+
+	<!--/ /---- Put your name in the title of the page ----/ /-->
+	<title>Shivadarshan</title>
+	
+	<!--/ /-------- Normalize CSS --------/ /-->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+	
+	<!--/ /-------- Google Fonts --------/ /-->
+	<!-- Add a link to google fonts here if you want them -->
+	
+	<!--/ /-------- Font Awesome --------/ /-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<!--/ /-------- Your Styles --------/ /-->
+	<link href="styles.css" rel="stylesheet">
+
+	<!--/ /---Put a short description for your site below. 20 words or less---/ /-->
+	<meta description="A short description for your site...">
+
+	<!--/ /-------- Needed For Mobile Devices --------/ /-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+	
+    <!-- ------------------------------------------------------
+    The site is designed to be mobile first. The wrapper elements
+	are in place for when you get to desktop size to contain the 
+	content.
+    ------------------------------------------------------- -->
+    
+	<header class="primary">
+        <div class="wrapper">
+            
+			<div class="logo-container">
+				<h1>Shivadarshan's<br>Portfolio</h1>
+
+				<!-- ------------------------------------------------------
+				Note that the image of the logo is linked to the home page.
+				------------------------------------------------------- -->
+				<a href="index.html"><img src="C:\\Users\\shiva\\Downloads\\lovepik-black-gold-three-dimensional-english-letter-s-png-image_401196045_wh1200.png" alt="logo image" id="logo"></a>
+			</div>
+            
+            
+			<!-- ------------------------------------------------------
+            The navigation here is linking to the sections further down
+            the page.
+            ------------------------------------------------------- -->
+			<nav id="mainnav">
+            	<ul>
+                	<li><a href="#work">Work</a></li>
+                    <li><a href="#about-contact">About</a></li>
+                    <li><a href="#about-contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+        
+    </header>
+    
+    <!-- ------------------------------------------------------
+    This is the work section, which has two parts: the featured
+	section and the projects section.
+    ------------------------------------------------------- -->
+    
+    <section id="work">
+   		<div class="wrapper">
+        	<h2>Check Out My Best Projects</h2>
+        	<section class="featured">
+                <article>
+                	<!-- ------------------------------------------------------
+                    Link the image below to the detail page for this project.
+                    Use the page.html file to make that page. Also link the 
+                    anchor tag in the paragraph below to the same page.
+                    ------------------------------------------------------- -->
+                	<a href="#"><img src="C:\\Users\\shiva\\OneDrive\\Pictures\\Screenshots\\Screenshot 2025-01-09 153204.png" alt="image"></a>
+                </article>
+                
+                <article>
+                	<h3>Agricultural Monitoring System Using Arduino and Blynk 2.0 </h3>
+                    <h4>Challenge Statement</h4>
+                    <p>The Agricultural Monitoring System is an IoT-based solution designed to monitor and automate agricultural processes in real-time. By utilizing the NodeMCU ESP8266 and the Blynk 2.0 platform, this system monitors environmental parameters like soil moisture, temperature, humidity, and rain, while automating irrigation based on real-time data.</p> <p><a href="https://github.com/shivadarshan-devadiga/Agricultural-Monitoring-System-Using-Arduino-and-Blynk-2.0">Find out how I solved this problem</a></p> 
+                </article>
+            </section> <!-- end row -->
+            
+            
+            <!-- ------------------------------------------------------
+            The projects section is for additional projects. I put four in
+			here, but it could be more, or less. You just have to pay
+			attention to how they wrap, and how many you want per row.
+            
+            Note that each image should be linked to the page with more
+            detailed information about that project. You can use a copy of
+            page.html to create those pages.
+            ------------------------------------------------------- -->
+            
+            <section class="projects">
+            
+            	<article>
+                	<h3>Criminal Management System</h3>
+                	<a href="https://github.com/shivadarshan-devadiga/Criminal-Database-Management-System"><img src="C:\\Users\\shiva\\OneDrive\\Pictures\\Screenshots\\Screenshot 2025-01-09 153917.png" alt="image"></a>
+                    <p><strong>Role:</strong> Developer</p>
+                    <p><strong>Description:</strong> The Criminal Management System is a comprehensive application designed to manage and monitor criminal records efficiently.</p>
+                </article>
+                
+                <article>
+                	<h3>FTP Server Using Socket Programming</h3>
+                	<a href="https://github.com/shivadarshan-devadiga/FTP-Server-Using-Socket-Programming-in-Python"><img src="C:\\Users\\shiva\\Downloads\\unnamed-1-1.png" alt="image"></a>
+                    <p><strong>Role:</strong> Developer</p>
+                    <p><strong>Description:</strong> This project implements a simple FTP server using socket programming in Python. The client can connect to the server, authenticate with a username and password, and perform basic file operations such as listing files, uploading files, and deleting files on the server.</p>
+                </article>
+                
+                <article>
+                	<h3>Text-Based Adventure Game</h3>
+                	<a href="https://github.com/shivadarshan-devadiga/Text-Based-Adventure-Game-Using-Binary-Tree-and-Stack-in-C"><img src="C:\\Users\\shiva\\OneDrive\\Pictures\\Screenshots\\Screenshot 2025-01-09 154703.png" alt="image"></a>
+                    <p><strong>Role:</strong> Developer</p>
+                    <p><strong>Description:</strong> Welcome to the Text-Based Adventure Game project! This project utilizes binary tree and stack data structures to create an interactive text adventure game where players make choices that lead them through various storylines.</p>
+                </article>
+				
+				<article>
+                	<h3>Direct Mapped Cache Simulator</h3>
+                	<a href="https://github.com/shivadarshan-devadiga/DIRECT-MAPPED-CACHE-USING-C"><img src="C:\\Users\\shiva\\Downloads\\images.png" alt="image"></a>
+                    <p><strong>Role:</strong> Developer</p>
+                    <p><strong>Description:</strong> A C-based simulator implementing a direct-mapped cache with write-back and write-on-allocate policies.</p>
+                </article>
+            
+            </section><!-- end row -->
+            
+        </div> <!-- end work wrapper -->
+    </section>
+    
+    
+    <!-- ------------------------------------------------------
+    This is the about and contact section. The links in the main
+    navigation link to this section. 
+    ------------------------------------------------------- -->
+    
+    <section id="about-contact" class="secondary">
+   		<div class="wrapper">
+        	
+			<div class="profile-photo">
+            	<img src="C:\\Users\\shiva\\Downloads\\WhatsApp Image 2024-01-23 at 20.36.48_cda37eb7.jpg" alt="image">
+            </div>
+			
+            <article>
+				<h2>About Me</h2>
+				<p>Enthusiastic software developer with hands-on experience in designing and managing complex applications. Seeking
+a role where I can apply my programming skills, problem-solving abilities and diverse project experience to create
+innovative and effective software solutions. Excited to join a forward-thinking team where I can contribute to
+impactful projects and grow professionally</p>
+				<h3>Skills</h3>
+				<p>I have a strong foundation in Java, Python, C, and R, and I am well-versed in Database Management System basics. I have a solid understanding of Operating Systems and Computer Networks.</p>
+			</article> 
+                
+			<article>
+				<h2>Contact Me!</h2>
+				<p>I am currently looking for opportunities to work on a team at a Software Company. Please feel free to contact me by phone, email or through the usual social media channels.</p>
+
+				<!-- ------------------------------------------------------
+				Be sure to encode your email address at this site, so you 
+				don't get spam. http://wbwip.com/wbw/emailencoder.html
+				------------------------------------------------------- -->
+
+				<p><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:&#101;&#109;&#097;&#105;&#108;&#064;&#115;&#111;&#109;&#101;&#119;&#104;&#101;&#114;&#101;&#046;&#099;&#111;&#109;">&#101;&#109;&#097;&#105;&#108;&#064;&#115;&#111;&#109;&#101;&#119;&#104;&#101;&#114;&#101;&#046;&#099;&#111;&#109;</a><br>
+				<i class="fa fa-phone" aria-hidden="true"></i> 123-456-7890</p>
+
+				<!-- ------------------------------------------------------
+				You can see here that I have included font-awesome. It is used
+				to create the icons above and below. You can go to the font-awesome
+				website to see the available icons and swap some out.
+				------------------------------------------------------- -->
+
+				<p class="social">
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-linkedin"></i></a> 
+					<a href="#"><i class="fab fa-twitter-square"></i></a>
+				</p>
+			</article>
+                   
+        </div>
+    </section>
+    
+    
+    <!-- ------------------------------------------------------
+    The footer section is not doing much on this page. Add more
+    content if necessary.
+    ------------------------------------------------------- -->
+    <footer class="primary">
+    	<div class="wrapper">
+        	<p class="centered">&copy; 2019 all rights reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>
